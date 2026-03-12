@@ -4,6 +4,8 @@
 
 HandOver AI is a Streamlit-based application that reads customer handover requirements from an Excel file, uses a local AI model through Ollama to generate a detailed operational SOP or Standard Operational Procedure, and outputs the result into a Word template.
 
+Can also be scalled to generate any developped Standard Operational Procedure
+
 
 
 \## Features

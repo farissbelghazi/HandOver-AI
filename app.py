@@ -85,7 +85,7 @@ def remove_header_only_rows(items):
 # =========================
 # EXCEL PARSING
 # =========================
-def parse_motherson_excel(excel_path: str, sheet_name: str):
+def parse_TEST_excel(excel_path: str, sheet_name: str):
     wb = openpyxl.load_workbook(excel_path, data_only=True)
     ws = wb[sheet_name]
 
@@ -335,7 +335,7 @@ if generate_btn:
 
         try:
             with st.spinner("Parsing Excel file..."):
-                parsed = parse_motherson_excel(excel_path, sheet_name_input)
+                parsed = parse_TEST_excel(excel_path, sheet_name_input)
 
             st.subheader("Parsed Excel Data")
             st.json(parsed)

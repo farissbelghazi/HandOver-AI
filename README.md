@@ -10,7 +10,7 @@ Can also be scalled to generate any developped Standard Operational Procedure
 
 \## Features
 
-\- Reads structured implementation handover data from Excel (`.xlsm` / `.xlsx`)
+\- Reads structured data from Excel (`.xlsm` / `.xlsx`)
 
 \- Extracts all end t oend Customer requirements requirements
 

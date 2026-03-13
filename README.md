@@ -12,7 +12,7 @@ Can also be scalled to generate any developped Standard Operational Procedure
 
 \- Reads structured data from Excel (`.xlsm` / `.xlsx`)
 
-\- Extracts all end t oend Customer requirements requirements
+\- Extracts all end t oend  customer requirements
 
 \- Uses Ollama locally to generate SOP content
 
